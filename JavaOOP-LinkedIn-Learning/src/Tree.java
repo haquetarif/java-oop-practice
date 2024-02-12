@@ -13,9 +13,16 @@ public class Tree {
         this.treeType = treeType;
     }
 
+    //Creating getter methods to access private attributes
     public double getHeightFt()
     {
         return heightFt;
+    }
+
+    //Creating setter methods to change private attributes
+
+    public void setTrunkDiameterInches(double trunkDiameterInches) {
+        this.trunkDiameterInches = trunkDiameterInches;
     }
 
     public double getTrunkDiameterInches()
